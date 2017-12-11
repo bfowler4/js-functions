@@ -86,16 +86,16 @@ function square(x) {
 function calculate(operation, x, y) {
 	switch (operation) {
 		case "add":
-			console.log(x + " + " + y + " = " + (x + y));
+			console.log("%d + %d = %d", x, y, (x + y));
 			return x + y;
 		case "subtract":
-			console.log(x + " - " + y + " = " + (x - y));
+			console.log("%d - %d = %d", x, y, (x - y));
 			return x - y;
 		case "multiply":
-			console.log(x + " * " + y + " = " + (x * y));
+			console.log("%d * %d = %d", x, y, (x * y));
 			return x * y;
 		case "divide":
-			console.log(x + " / " + y + " = " + (x / y));
+			console.log("%d / %d = %d", x, y, (x / y));
 			return x / y;
 		default:
 			console.log("Unknown operation");
